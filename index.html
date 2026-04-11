@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>irr 222 | Portafolio</title>
+    
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#bio" class="logo-wrapper" style="text-decoration: none; display: flex; align-items: center; gap: 12px;">
+                <img src="./assets/logo.gif" alt="irr 222 logo" style="height: 45px; width: auto; border-radius: 50%;">
+                <span style="color: #fff; font-size: 1.5rem; font-weight: 900;">irr 222</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#bio">BIO</a>
+                <a href="#proyectos">JUEGOS</a>
+                <a href="#actividad">ACTIVIDAD</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="bio" class="section-hero" style="min-height: 120vh; background: linear-gradient(135deg, #0f0f0f 0%, #222 100%); padding: 220px 20px 100px; display: flex; align-items: center; justify-content: center;">
+        <div class="hero-text" style="width: 100%; max-width: 850px; margin: 0 auto; text-align: center;">
+            
+            <h1 style="font-size: clamp(4rem, 15vw, 8rem); margin-bottom: 10px; line-height: 1; color: #fff; font-weight: 900; letter-spacing: -2px;">IRR 222</h1>
+            
+            <p style="font-size: 1.2rem; color: #00ffcc; font-weight: 700; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 45px;">
+                Indie Game Developer
+            </p>
+
+            <div style="background: rgba(40, 40, 40, 0.7); padding: 45px; border-radius: 30px; backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.1); text-align: left; box-shadow: 0 20px 50px rgba(0,0,0,0.4);">
+                
+                <p style="font-size: 1.15rem; line-height: 1.7; color: #fff; margin-bottom: 30px;">
+                    "Apasionado por la <b>creación de mundos digitales</b> y la <b>lógica de videojuegos</b> en <i>Unity</i>. Mi enfoque combina el desarrollo técnico con la creación de contenido estratégico, gestionando comunidades y analizando el rendimiento de cada proyecto."
+                </p>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 5px;">
+                    <span style="background: rgba(0, 255, 204, 0.1); border: 1px solid rgba(0, 255, 204, 0.2); padding: 8px 18px; border-radius: 50px; font-size: 0.85rem; color: #00ffcc; display: flex; align-items: center; gap: 8px;">🌍 World Building</span>
+                    <span style="background: rgba(255,255,255,0.05); padding: 8px 18px; border-radius: 50px; font-size: 0.85rem; color: #fff; display: flex; align-items: center; gap: 8px;">🚀 Desarrollo Técnico</span>
+                    <span style="background: rgba(255,255,255,0.05); padding: 8px 18px; border-radius: 50px; font-size: 0.85rem; color: #fff; display: flex; align-items: center; gap: 8px;">🕹️ Experiencias Arcade</span>
+                    <span style="background: rgba(255,255,255,0.05); padding: 8px 18px; border-radius: 50px; font-size: 0.85rem; color: #fff; display: flex; align-items: center; gap: 8px;">🛠️ Unity Engine</span>
+                </div>
+
+                <p style="font-style: italic; color: #bbb; font-size: 0.95rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px; margin-top: 25px;">
+                    Mi objetivo: Transformar ideas complejas en <b>experiencias jugables pulidas y adictivas</b>.
+                </p>
+            </div>
+
+    </section>
+
+    <section id="proyectos" class="section-white">
+        <h2 class="title">Mis Proyectos</h2>
+        <div id="grid-proyectos" class="supercell-grid"></div>
+    </section>
+
+    <section id="actividad" class="section-dark">
+        <h2 class="title">Actividad Reciente</h2>
+        <div id="lista-devblogs" class="devlog-list"></div>
+    </section>
+
+    <footer style="background: #0f0f0f; padding: 60px 20px; text-align: center; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="margin-bottom: 25px;">
+                <a href="https://infobyteirr222.netlify.app/" style="color: #444; text-decoration: none; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; transition: 0.3s;" onmouseover="this.style.color='#00ffcc'" onmouseout="this.style.color='#444'">
+                    Acceder a InfoByte →
+                </a>
+            </div>
+            <p style="color: #222; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 3px;">
+                © 2026 irr 222. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="cerrarModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

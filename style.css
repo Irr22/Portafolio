@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navbar Transparente a Sólida */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+
+.btn-main {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.btn-main:hover {
+    transform: scale(1.1);
+}
+
+/* Grid de Juegos */
+.games-section {
+    padding: 80px 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.game-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+}
+
+.game-thumb {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    background-size: cover;
+}
+
+.game-info {
+    padding: 20px;
+}
+
+.card { 
+    border: none; 
+    border-radius: 20px; /* Bordes muy redondeados tipo Clash Royale */
+    overflow: hidden; 
+    cursor: pointer; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    background: var(--white);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.card:hover { 
+    transform: scale(1.05); /* Efecto de "pop" al pasar el ratón */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15); 
+}
+
+.categoria-tag {
+    background: var(--accent);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo Supercell */
+.supercell-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    padding: 20px;
+}
+
+.card-proyecto {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.card-proyecto:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+.info-proyecto {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+}
+
+.devlog-item {
+    background: #222;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid var(--accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Secciones Generales */
+.section-hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.section-white { padding: 80px 10%; background: #ffffff; }
+.section-dark { padding: 80px 10%; background: #1a1a1a; color: white; }
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* Variables que faltaban */
+:root {
+    --accent: #00ffcc;
+}
+
+/* Mejoras en el Nav */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.btn-noticias {
+    background: var(--accent);
+    color: black !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 2000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px; top: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #333;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.modal-img { width: 100%; border-radius: 15px; margin-bottom: 10px; }
+
+.btn-download {
+    display: block;
+    background: #28a745;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.section-hero {
+    height: 80vh;
+    /* La ruta debe ser relativa a donde esté el archivo CSS */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('./assets/fondo-hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; /* Esto centra verticalmente el logo con los textos */
+}
+
+.logo img {
+    max-height: 50px; /* Evita que el logo sea más grande que la barra */
+    display: block;
+}.devlog-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Tarjeta principal del juego en Actividad */
+.devlog-item {
+    background: #121212;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 4px solid #00ffcc; /* El borde turquesa de tu imagen */
+}
+
+.devlog-item:hover {
+    background: #1a1a1a;
+    transform: translateX(5px);
+}
+
+.devlog-info h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.devlog-info p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.tag-juego-small {
+    color: #eee;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.devlog-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #aaa;
+    font-size: 0.85rem;
+}
+
+.btn-leer-mini {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Contenedor de devblogs desplegados */
+.devblog-desplegable {
+    margin-top: 10px;
+    padding-left: 20px;
+    display: none; /* Oculto por defecto */
+    flex-direction: column;
+    gap: 10px;
+}
