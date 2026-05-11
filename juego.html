@@ -86,6 +86,27 @@
       box-shadow: 0 8px 25px rgba(0,255,204,0.3);
     }
 
+    .btn-demo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 24px;
+      margin-right: 12px; /* Espacio si están ambos botones */
+      padding: 14px 28px;
+      background: #1a1a1a;
+      color: #00ffcc;
+      font-weight: 700;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 1px solid #00ffcc;
+      transition: all 0.2s;
+    }
+    .btn-demo:hover {
+      background: #00ffcc;
+      color: #000;
+      transform: scale(1.05);
+    }
+
     .tab-bar {
       display: flex;
       gap: 8px;
@@ -208,6 +229,20 @@
 
     function renderizarJuego(j) {
       const tieneTecnico = !!j.info_tecnica;
+      
+      // Lógica para el botón de Demo
+      const botonDemo = j.link_demo 
+        ? `<a href="${j.link_demo}" target="_blank" rel="noopener" class="btn-demo">
+             🎮 Probar Demo
+           </a>` 
+        : '';
+
+      // Lógica para el botón de Google Play
+      const botonPlay = j.link_juego 
+        ? `<a href="${j.link_juego}" target="_blank" rel="noopener" class="btn-play">
+             ▶ Ver en Google Play
+           </a>` 
+        : '';
 
       const tabs = tieneTecnico ? `
         <div class="tab-bar">
@@ -240,9 +275,12 @@
           <h2 id="label-seccion">${modoActual === 'dev' ? 'Ficha técnica' : 'Descripción'}</h2>
           <p id="texto-contenido">${modoActual === 'dev' ? j.info_tecnica : j.info_publica}</p>
         </div>
-        <a href="${j.link_juego}" target="_blank" rel="noopener" class="btn-play">
-          ▶ Ver en Google Play
-        </a>
+        
+        <div class="acciones-juego">
+          ${botonDemo}
+          ${botonPlay}
+        </div>
+        
         ${galeria}`;
 
       document.getElementById('loader').style.display = 'none';
