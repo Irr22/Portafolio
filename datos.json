@@ -1,0 +1,60 @@
+{
+  "proyectos": [
+    {
+      "id_proyecto": "com.Irr222.MedievalEmpire",
+      "titulo": "Medieval Empire",
+      "descripcion": "Comanda tu ejército en un campo de batalla estratégico donde cada movimiento cuenta. Domina el arte de la guerra medieval.",
+      "imagen": "https://i.postimg.cc/tRhFyHKS/Anadir-un-titulo-(1).png",
+      "link_juego": "https://play.google.com/store/apps/details?id=com.Irr22.com.unity.template.mobile2D&hl=es_PY",
+      "info_publica": "Medieval Empire te sumerge en batallas épicas donde la estrategia es clave. Construye tu ejército, posiciona tus tropas sabiamente y conquista territorios enemigos.\n\nCaracterísticas principales:\n• Modo Historia con múltiples niveles\n• Sistema de combate táctico por turnos\n• Variedad de unidades: arqueros, caballería, infantería\n• Mejoras de tropas\n\nCada decisión cuenta en el campo de batalla. ¿Serás capaz de liderar tu imperio hacia la victoria?",
+      "info_tecnica": "Desarrollo técnico y proceso creativo:\n\n🎮 MOTOR Y HERRAMIENTAS\n• Unity 2022.3\n• Sistema de cuadricula personalizado\n• Pathfinding A* optimizado para mobile\n\n💻 ARQUITECTURA\n• Patrón MVC para separación de lógica\n• Sistema de eventos para comunicación entre componentes\n\n🎨 ARTE Y AUDIO\n• Assets 2D optimizados para rendimiento móvil\n• Animaciones con Sprite sheets\n• Banda sonora original compuesta específicamente para el juego\n• Sistema de audio adaptativo según intensidad de batalla\n\n⚡ OPTIMIZACIÓN\n• Object pooling para unidades y proyectiles\n• Occlusion culling para grandes mapas\n• Texturas comprimidas (ASTC)\n• Target: 60 FPS en dispositivos gama media\n\n🔧 DESAFÍOS SUPERADOS\n• Implementación y posterior eliminación del modo multijugador (PUN2)\n• Balance de unidades mediante iteración con testers\n• Gestión de memoria en dispositivos con <2GB RAM",
+      "imagenes_galeria": [
+        "https://i.postimg.cc/tRhFyHKS/Anadir-un-titulo-(1).png"
+      ],
+      "textos_galeria": [
+        "Portada"
+      ]
+    },
+    {
+      "id_proyecto": "GoblinForestSlayer",
+      "titulo": "Goblin Forest Slayer",
+      "descripcion": "Un juego de acción y estrategia donde el objetivo es defender el reino y cazar hordas de goblins en el bosque.",
+      "imagen": "https://i.postimg.cc/d1Mpkyqc/Diseno-sin-titulo-(2).png",
+      "link_juego": "https://play.google.com/console/u/1/developers/6173370749115233192/app/4974389292458990273/app-dashboard",
+      "info_publica": "Adéntrate en un oscuro bosque plagado de criaturas hostiles. Como el último defensor del reino, tu misión es eliminar las hordas de goblins que amenazan la paz.\n\nCaracterísticas:\n• Combate dinámico y frenético\n• Sistema de oleadas progresivas\n• Power-ups y habilidades especiales\n• Múltiples tipos de enemigos\n\n¿Cuánto tiempo podrás sobrevivir en el bosque maldito?",
+      "info_tecnica": "Proceso de desarrollo:\n\n🎮 TECNOLOGÍA BASE\n• Unity 2022.3\n• Sistema de spawning procedural\n• Pool de objetos para enemigos\n\n💻 SISTEMAS IMPLEMENTADOS\n• Wave spawner con dificultad escalable\n• Sistema de combate con hitboxes precisos\n\n🎨 DISEÑO VISUAL\n• Estilo pixel art\n• Sistema de parallax para profundidad\n\n⚡ OPTIMIZACIÓN MÓVIL\n• Instanciación bajo demanda\n• Destrucción automática de enemigos fuera de cámara\n• Simplificación de física para mejorar FPS\n• Target: 30+ FPS constantes\n\n🔧 LECCIONES APRENDIDAS\n• Balanceo de dificultad mediante Analytics\n• Importancia del feedback visual inmediato\n• Optimización de colisiones 2D",
+      "imagenes_galeria": [
+        "https://i.postimg.cc/d1Mpkyqc/Diseno-sin-titulo-(2).png"
+      ],
+      "textos_galeria": [
+        "Acción intensa contra hordas"
+      ]
+    }
+  ],
+  "devblogs": [
+    {
+      "idProyecto": "GoblinForestSlayer",
+      "titulo": "Lanzamiento oficial",
+      "contenido": "¡La cacería ha comenzado! Ya puedes encontrar el juego disponible en la Play Store desde cualquier país.\n\nDespués de 6 meses de desarrollo intenso, pulido de trampas y rastreo de trasgos, Goblin Forest Slayer está finalmente disponible para todos.\n\n¿Qué esperar?\n• Modo historia completo: Adéntrate en el corazón del bosque a través de 3 bosques con 3 niveles cada uno\n• Sistema de progresión equilibrado: Mejora tu equipo con cada baja\n• Controles optimizados para móvil: Precisión letal en cada ataque\n• Sin pay-to-win: Solo tu habilidad determinará quién es el cazador y quién la presa\n\n¡Nos vemos en la espesura del bosque!",
+      "fecha": "2024-11-28"
+    },
+    {
+      "idProyecto": "com.Irr222.MedievalEmpire",
+      "titulo": "Lanzamiento oficial",
+      "contenido": "¡Lanzamiento mundial! Ya puedes encontrar el juego disponible en la Play Store desde cualquier país.\n\nDespués de meses de desarrollo y pruebas, Medieval Empire está finalmente disponible para todos.\n\n¿Qué esperar?\n• Modo historia completo con 5 niveles\n• Sistema de progresión equilibrado\n• Controles optimizados para móvil\n• Sin pay-to-win, todo desbloqueable jugando\n\n¡Nos vemos en el campo de batalla!",
+      "fecha": "2025-03-31"
+    },
+    {
+      "idProyecto": "com.Irr222.MedievalEmpire",
+      "titulo": "Actualización: Ajustes en monetización y nueva banda sonora",
+      "contenido": "Actualización importante desplegada hoy:\n\n📱 MONETIZACIÓN\nSe ha implementado un nuevo proveedor de publicidad (AdMob → Unity Ads) para ofrecer mejores recompensas a los jugadores. Los anuncios son menos intrusivos y las recompensas por ver videos se han incrementado en un 30%.\n\n🎵 AUDIO\nBanda sonora completamente renovada:\n• 3 tracks originales compuestos exclusivamente\n• Música adaptativa según intensidad de batalla\n• Efectos de sonido mejorados\n\n❌ MULTIJUGADOR ELIMINADO\nTras analizar datos de estabilidad y feedback, he tomado la difícil decisión de eliminar el modo 1vs1. Prefiero ofrecer una experiencia PvE sólida que un modo online inestable.\n\nGracias por vuestra comprensión.",
+      "fecha": "2026-02-23"
+    },
+    {
+      "idProyecto": "com.Irr222.MedievalEmpire",
+      "titulo": "Post-Mortem: El desafío de conquistar el tablero",
+      "contenido": "Medieval Empire fue un sprint de 3 meses y parte de mi ambicioso plan de lanzar 4 juegos en 2024. Fue mi primera incursión en juegos de tablero y, honestamente, los primeros días fueron un caos: las tropas se encimaban, la navegación era impredecible y el pathfinding fallaba constantemente.\n\n🎯 OBJETIVOS INICIALES\n• Crear un juego de estrategia accesible\n• Sistema de combate profundo pero intuitivo\n• Modo multijugador competitivo\n\n⚔️ DESAFÍOS PRINCIPALES\n\n1. SISTEMA DE CUADRICULAS\nLa mayor pesadilla técnica. Implementé una cuadricula rectangular que parecía sencillo en papel pero resultó complejo en la práctica. Las colisiones entre unidades, el pathfinding y la selección de tiles requirieron 3 reescrituras completas del sistema.\n\n2. MULTIJUGADOR 1VS1\nImplementé PUN2 (Photon Unity Networking) y logré que funcionara... a veces. La sincronización de estados, el lag compensation y los desconexiones inesperadas fueron un dolor de cabeza constante. Tras 4 meses de intentos, tomé la dura decisión de eliminarlo. Preferí un buen PvE que un mal PvP.\n\n3. BALANCE DE UNIDADES\nCada unidad necesitaba sentirse útil sin ser overpowered. Iteré 7 veces los valores de daño, vida y coste hasta encontrar el equilibrio. Los datos de analytics fueron cruciales.\n\n✅ LOGROS\n• Sistema de movimiento pulido donde cada tropa responde a objetivos claros\n• Modo historia con 5 niveles progresivos\n• Optimización que permite 60 FPS en gama media\n\n📊 RESULTADOS\n• 50+ descargas en 2 años\n\n🎓 LECCIONES APRENDIDAS\n• No subestimar la complejidad de sistemas de cuadriculas\n• A veces, eliminar funciones es la mejor decisión\n• El feedback de usuarios es oro puro\n• La optimización móvil es crítica desde día 1\n\nEste proyecto no solo es un juego, es la base de todo lo que aprendí sobre lógica de tableros y control de unidades. Un peldaño esencial en mi carrera como desarrollador indie.",
+      "fecha": "2026-04-11"
+    }
+  ]
+}
