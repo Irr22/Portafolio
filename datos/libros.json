@@ -1,0 +1,68 @@
+[
+    {
+      "id_libro": "primero-en-la-brecha",
+      "titulo": {
+        "es": "Primero en la brecha: El Despertar del Nigromante Oculto",
+        "en": "First Into the Breach: The Awakening of the Hidden Necromancer"
+      },
+      "genero": { "es": "LitRPG · Fantasía", "en": "LitRPG · Fantasy" },
+      "portada": {
+        "src":      "./assets/libros/primero-en-la-brecha/portada.png",
+        "fallback": "https://i.postimg.cc/XBvsvCtT/primero-en-la-brecha.png"
+      },
+      "anio": 2026,
+      "paginas": 312,
+      "formato": [
+        { "es": "eBook",       "en": "eBook" },
+        { "es": "Tapa blanda", "en": "Paperback" }
+      ],
+      "sinopsis_corta": {
+        "es": "¿Qué harías si el Sistema te otorgara un poder que todos intentan ocultar? El inicio de una trilogía donde la estrategia, la ambición y los secretos definen quién vive y quién cae.",
+        "en": "What would you do if the System granted you a power everyone tries to hide? The start of a trilogy where strategy, ambition and secrets decide who lives and who falls."
+      },
+      "sinopsis_completa": {
+        "es": "El mundo cambió cuando las Brechas aparecieron. El Sistema asigna rangos y clases, dictando el destino de cada joven antes de que siquiera tengan la oportunidad de elegir. Max siempre fue uno más entre la multitud.\n\nPero, tras su primera incursión en una Brecha, el destino le entrega un regalo tan codiciado como peligroso: una clase oculta que rompe todas las reglas establecidas.",
+        "en": "The world changed when the Breaches appeared. The System assigns ranks and classes, dictating every young person's fate before they even get a chance to choose. Max was always just another face in the crowd.\n\nBut after his first Breach raid, fate hands him a gift as coveted as it is dangerous: a hidden class that breaks every established rule."
+      },
+      "primer_capitulo": {
+      "es": "Un martes cualquiera a las seis de la mañana no es el momento en el que esperas que el fin del mundo toque a tu puerta. O al menos, no mientras llevas unos pantalones de chándal desgastados y sostienes una bolsa de plástico con el regalo que te acaba de hacer tu perro.",
+      "en": "Any random Tuesday at six in the morning is not when you expect the end of the world to knock on your door. Or at least, not while wearing worn-out sweatpants and holding a plastic bag with the 'gift' your dog just left you."
+      },
+      "enlace_compra": "https://www.amazon.es/dp/B0H2SKWZSG",
+      "enlace_lectura": "",
+      "destacado": true
+    },
+    {
+      "id_libro": "medieval-empire-diario-estratega",
+      "titulo": {
+        "es": "Medieval Empire: Diario de un estratega (Volumen 1)",
+        "en": "Medieval Empire: Diary of a Strategist (Volume 1)"
+      },
+      "genero": { "es": "LitRPG · Humor · Estrategia", "en": "LitRPG · Humor · Strategy" },
+      "portada": {
+        "src":      "./assets/libros/medieval-empire-diario-estratega/portada.png",
+        "fallback": "https://i.postimg.cc/VJ9n3NVC/medieval-empire-diario.png"
+      },
+      "anio": 2026,
+      "paginas": 76,
+      "formato": [
+        { "es": "eBook",       "en": "eBook" },
+        { "es": "Tapa blanda", "en": "Paperback" }
+      ],
+      "sinopsis_corta": {
+        "es": "Arturo tiene 22 años, una mente táctica brillante y... una suerte terrible. Acompáñalo en este primer volumen autoconclusivo lleno de estrategia, humor y mecánicas LitRPG reales.",
+        "en": "Arturo is 22, has a brilliant tactical mind, and... terrible luck. Join him in this first self-contained volume full of strategy, humor and real LitRPG mechanics."
+      },
+      "sinopsis_completa": {
+        "es": "Arturo tiene 22 años, una mente táctica brillante y... una suerte terrible. Acaba de entrar en Medieval Empire, un nuevo juego de estrategia posicional y batallas en tiempo real, pero el sistema no le ha dado una bienvenida muy heroica. En lugar de una armadura reluciente, ha empezado la campaña con un casco de bronce abollado, oxidado y que le tapa la mitad de la cara.\n\nUtilizando sus conocimientos de ajedrez, Arturo empezará a dominar el tablero táctico y a desbloquear las tropas más temibles.",
+        "en": "Arturo is 22, has a brilliant tactical mind, and... terrible luck. He just entered Medieval Empire, a new positional strategy game with real-time battles, but the system didn't exactly roll out the red carpet. Instead of shining armor, he starts the campaign with a dented, rusty bronze helmet that covers half his face.\n\nUsing his chess knowledge, Arturo will start to dominate the tactical board and unlock the most fearsome troops."
+      },
+      "primer_capitulo": {
+        "es": "Arturo se ajustó el casco abollado. Solo podía ver por un ojo, pero al menos podía ver. 'Bien, sistema. Muéstrame qué tienes.'",
+        "en": "Arturo adjusted his dented helmet. He could only see out of one eye, but at least he could see. 'Alright, system. Show me what you've got.'"
+      },
+      "enlace_compra": "https://www.amazon.es/Medieval-Empire-Diario-estratega-Volumen-ebook/dp/B0H49T55NR/ref=tmm_kin_swatch_0",
+      "enlace_lectura": "",
+      "destacado": false
+    }
+  ]

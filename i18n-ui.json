@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "inicio":      { "es": "Inicio",        "en": "Home" },
+    "juegos":      { "es": "Juegos",        "en": "Games" },
+    "libros":      { "es": "Libros",        "en": "Books" },
+    "otros":       { "es": "Investigación", "en": "Research" },
+    "trayectoria": { "es": "Trayectoria",   "en": "Journey" }
+  },
+
+  "footer": {
+    "copy":     { "es": "© 2026 irr 222. Todos los derechos reservados.", "en": "© 2026 irr 222. All rights reserved." },
+    "infoByte": { "es": "Acceder a InfoByte →", "en": "Go to InfoByte →" }
+  },
+
+  "common": {
+    "loadingGame": { "es": "Cargando proyecto…",       "en": "Loading project…" },
+    "loadingBook": { "es": "Cargando libro…",           "en": "Loading book…" },
+    "loadingOtro": { "es": "Cargando proyecto técnico…", "en": "Loading technical project…" }
+  },
+
+  "home": {
+    "heroBadge":       { "es": "Indie Game Developer", "en": "Indie Game Developer" },
+    "heroTitle":       { "es": "IRR 222", "en": "IRR 222" },
+    "heroDescription": {
+      "es": "Indie Game Developer apasionado por la creación de mundos digitales y la lógica de videojuegos en Unity. Transformo ideas complejas en experiencias jugables pulidas y adictivas.",
+      "en": "Indie Game Developer passionate about crafting digital worlds and game logic in Unity. I turn complex ideas into polished, addictive playable experiences."
+    },
+    "heroTag1": { "es": "🌍 World Building",      "en": "🌍 World Building" },
+    "heroTag2": { "es": "🚀 Desarrollo Técnico",  "en": "🚀 Technical Development" },
+    "heroTag3": { "es": "🛠️ Unity Engine",        "en": "🛠️ Unity Engine" },
+    "heroCta":  { "es": "Ver Proyectos ↓",         "en": "View Projects ↓" },
+
+    "featuredLabel":    { "es": "Lo más reciente", "en": "Latest Work" },
+    "featuredTitle":    { "es": "Dos mundos, un mismo universo creativo.", "en": "Two worlds, one creative universe." },
+    "featuredSubtitle": {
+      "es": "Mis últimas creaciones: un juego donde cada decisión cuenta, y una historia donde cada palabra pesa.",
+      "en": "My latest creations: a game where every decision counts, and a story where every word weighs."
+    },
+    "featuredTagGame":  { "es": "🎮 Juego destacado", "en": "🎮 Featured Game" },
+    "featuredTagBook":  { "es": "📚 Libro destacado", "en": "📚 Featured Book" },
+    "featuredCtaGame":  { "es": "Ver ficha del juego →", "en": "View game details →" },
+    "featuredCtaBook":  { "es": "Ver ficha del libro →", "en": "View book details →" },
+
+    "worldsGamesTitle": { "es": "Videojuegos", "en": "Video Games" },
+    "worldsGamesDesc":  { "es": "Estrategia táctica y acción móvil desarrollada en Unity. Sistemas depurados, sin pay-to-win.",
+                           "en": "Tactical strategy and mobile action built in Unity. Refined systems, no pay-to-win." },
+    "worldsGamesCta":   { "es": "Explorar juegos →", "en": "Explore games →" },
+
+    "worldsBooksTitle": { "es": "Literatura", "en": "Literature" },
+    "worldsBooksDesc":  { "es": "Fantasía, ciencia ficción y thrillers donde el world-building trasciende la pantalla.",
+                           "en": "Fantasy, sci-fi and thrillers where world-building transcends the screen." },
+    "worldsBooksCta":   { "es": "Explorar libros →", "en": "Explore books →" },
+
+    "worldsOtrosTitle": { "es": "Investigación", "en": "Research" },
+    "worldsOtrosDesc":  { "es": "TDRs, herramientas y proyectos técnicos. Software con propósito académico y de código abierto.",
+                           "en": "Papers, tools and technical projects. Software with academic and open-source purpose." },
+    "worldsOtrosCta":   { "es": "Explorar proyectos →", "en": "Explore projects →" },
+
+    "worldsJourneyTitle": { "es": "Trayectoria", "en": "Journey" },
+    "worldsJourneyDesc":  { "es": "Devlogs y archivo histórico de todo el recorrido como creador independiente.",
+                             "en": "Devlogs and the historical archive of my whole indie journey." },
+    "worldsJourneyCta":   { "es": "Ver archivo →", "en": "View archive →" },
+
+    "activityLabel":    { "es": "Registro", "en": "Log" },
+    "activityTitle":    { "es": "Actividad Reciente", "en": "Recent Activity" },
+    "activitySubtitle": { "es": "Actualizaciones de desarrollo agrupadas por proyecto.",
+                           "en": "Development updates grouped by project." },
+    "activityLoadMore": { "es": "Ver más actividad", "en": "See more activity" }
+  },
+
+  "juegos_page": {
+    "label":    { "es": "Desarrollo de Videojuegos · Unity", "en": "Game Development · Unity" },
+    "title":    { "es": "Experiencias de estrategia y acción móvil.", "en": "Strategy and mobile action experiences." },
+    "subtitle": {
+      "es": "Desarrollo videojuegos enfocados en la estrategia táctica y la optimización para dispositivos móviles. Cada proyecto es un desafío de diseño, sistemas de cuadrículas y mecánicas depuradas sin distracciones 'pay-to-win'.",
+      "en": "I build games focused on tactical strategy and mobile optimization. Each project is a design challenge: grid systems, refined mechanics, and zero 'pay-to-win' noise."
+    },
+    "filterPlatform": { "es": "Plataforma / Motor", "en": "Platform / Engine" },
+    "filterGenre":    { "es": "Género",             "en": "Genre" },
+    "allPlatforms":   { "es": "Todas",              "en": "All" },
+    "allGenres":      { "es": "Todos los géneros",  "en": "All genres" },
+    "noResults":      { "es": "No hay proyectos disponibles con estos filtros.", "en": "No projects match these filters." }
+  },
+
+  "libros_page": {
+    "label":    { "es": "Faceta Literaria", "en": "Literary Side" },
+    "title":    { "es": "Historias que trascienden la pantalla.", "en": "Stories that transcend the screen." },
+    "subtitle": {
+      "es": "Escribir es otra forma de crear mundos. En este espacio recopilo mis obras literarias, universos de ficción y relatos donde la profundidad de los personajes y la atmósfera son los auténticos protagonistas. Descubre las sinopsis y los enlaces de lectura de cada libro.",
+      "en": "Writing is another way to build worlds. Here I gather my literary works, fiction universes and stories where character depth and atmosphere take the lead. Discover the synopsis and reading links for each book."
+    },
+    "filterAll": { "es": "Todos", "en": "All" },
+    "noResults": { "es": "No hay libros disponibles.", "en": "No books available." },
+    "metaYear":  { "es": "año",   "en": "year" },
+    "metaPages": { "es": "págs.", "en": "pp." }
+  },
+
+  "otros_page": {
+    "label":    { "es": "Investigación · TDR · Ingeniería", "en": "Research · Papers · Engineering" },
+    "title":    { "es": "Proyectos técnicos y de investigación.", "en": "Technical and research projects." },
+    "subtitle": {
+      "es": "Trabajos de investigación, herramientas de código abierto y desarrollos de ingeniería orientados a resolver problemas concretos. Enfoque en arquitectura, rendimiento y buenas prácticas.",
+      "en": "Research works, open-source tools and engineering projects focused on solving concrete problems. Emphasis on architecture, performance and best practices."
+    },
+    "filterType": { "es": "Tipo de proyecto", "en": "Project type" },
+    "filterTech": { "es": "Tecnología",       "en": "Technology" },
+    "allTypes":   { "es": "Todos los tipos",  "en": "All types" },
+    "allTech":    { "es": "Todas",            "en": "All" },
+    "noResults":  { "es": "No hay proyectos con estos filtros.", "en": "No projects match these filters." }
+  },
+
+  "trayectoria_page": {
+    "label":    { "es": "Registro Histórico", "en": "Historical Log" },
+    "title":    { "es": "Mi Cronología / Trayectoria", "en": "My Timeline / Journey" },
+    "subtitle": {
+      "es": "Una línea temporal dividida en etapas clave que resume mi evolución como desarrollador independiente y creador de universos. Del hito más reciente al más antiguo.",
+      "en": "A timeline split into key stages that summarizes my evolution as an indie developer and world-builder. From most recent to oldest milestone."
+    },
+    "indexLabel":  { "es": "Índice",  "en": "Index" },
+    "badgeMajor":  { "es": "Hito",    "en": "Milestone" },
+    "badgeMinor":  { "es": "Paso",    "en": "Step" }
+  },
+
+  "ficha": {
+    "backToGames":  { "es": "← Volver a juegos",         "en": "← Back to games" },
+    "backToBooks":  { "es": "← Volver a libros",         "en": "← Back to books" },
+    "backToOtros":  { "es": "← Volver a investigación",  "en": "← Back to research" },
+    "notFoundGame": { "es": "Proyecto no encontrado.",   "en": "Project not found." },
+    "notFoundBook": { "es": "Libro no encontrado.",      "en": "Book not found." },
+    "notFoundOtro": { "es": "Proyecto no encontrado.",   "en": "Project not found." },
+    "downloadPlay": { "es": "🎮 Descargar en Play Store", "en": "🎮 Download on Play Store" },
+    "demo":         { "es": "🕹️ Probar Demo",            "en": "🕹️ Try Demo" },
+    "synopsisGame": { "es": "Sinopsis jugable",          "en": "Playable synopsis" },
+    "techDetails":  { "es": "⚙️ Detalles técnicos",      "en": "⚙️ Technical details" },
+    "gallery":      { "es": "🖼️ Galería",                 "en": "🖼️ Gallery" },
+    "fullSynopsis": { "es": "📜 Sinopsis completa",      "en": "📜 Full synopsis" },
+    "firstLines":   { "es": "✨ Primeras líneas",         "en": "✨ Opening lines" },
+    "buyBook":      { "es": "📖 Comprar / Leer",         "en": "📖 Buy / Read" },
+    "readChapter":  { "es": "📄 Ver primer capítulo",    "en": "📄 Read first chapter" },
+    "context":      { "es": "Contexto",                  "en": "Context" },
+    "status":       { "es": "Estado",                    "en": "Status" },
+    "tech":         { "es": "Tecnologías",               "en": "Tech stack" },
+    "links":        { "es": "Enlaces",                   "en": "Links" },
+    "viewGame":     { "es": "Ver ficha del juego →",     "en": "View game details →" }
+  },
+
+  "aria": {
+    "toggleTheme": { "es": "Cambiar tema", "en": "Toggle theme" },
+    "menu":        { "es": "Menú",          "en": "Menu" },
+    "close":       { "es": "Cerrar",        "en": "Close" },
+    "prev":        { "es": "Anterior",      "en": "Previous" },
+    "next":        { "es": "Siguiente",     "en": "Next" }
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investigación | irr 222</title>
+  <link rel="icon" type="image/gif" href="./assets/logo.gif" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body data-page="otros">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="nav-brand">
+        <img src="./assets/logo.gif" alt="irr 222" />
+        <span>irr 222</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-i18n="nav.inicio">Inicio</a></li>
+        <li><a href="juegos.html" data-i18n="nav.juegos">Juegos</a></li>
+        <li><a href="libros.html" data-i18n="nav.libros">Libros</a></li>
+        <li><a href="otros.html" class="active" data-i18n="nav.otros">Investigación</a></li>
+        <li><a href="trayectoria.html" data-i18n="nav.trayectoria">Trayectoria</a></li>
+      </ul>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div data-lang-selector></div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema" data-i18n-aria="aria.toggleTheme">🌙</button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Menú" data-i18n-aria="aria.menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="section-label reveal" data-i18n="otros_page.label">Investigación · TDR · Ingeniería</span>
+      <h1 class="section-title reveal" data-i18n="otros_page.title">Proyectos técnicos y de investigación.</h1>
+      <p class="section-subtitle reveal" data-i18n="otros_page.subtitle">
+        Trabajos de investigación, herramientas de código abierto y desarrollos de ingeniería.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-padding others-section">
+    <div class="container">
+      <div class="filter-group" style="margin-bottom: 20px;">
+        <h4 style="font-size: 0.9rem; margin-bottom: 8px; color: var(--text-secondary);" data-i18n="otros_page.filterType">Tipo de proyecto</h4>
+        <div class="projects-filter" id="filter-otro-tipo"></div>
+      </div>
+      <div class="filter-group" style="margin-bottom: 32px;">
+        <h4 style="font-size: 0.9rem; margin-bottom: 8px; color: var(--text-secondary);" data-i18n="otros_page.filterTech">Tecnología</h4>
+        <div class="projects-filter" id="filter-otro-tech"></div>
+      </div>
+      <div class="others-grid" id="grid-otros"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="index.html" class="nav-brand">
+        <img src="./assets/logo.gif" alt="irr 222" />
+        <span>irr 222</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="juegos.html" data-i18n="nav.juegos">Juegos</a></li>
+        <li><a href="libros.html" data-i18n="nav.libros">Libros</a></li>
+        <li><a href="otros.html" data-i18n="nav.otros">Investigación</a></li>
+        <li><a href="trayectoria.html" data-i18n="nav.trayectoria">Trayectoria</a></li>
+      </ul>
+      <p class="footer-copy" data-i18n="footer.copy">© 2026 irr 222.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

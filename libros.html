@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Libros | irr 222</title>
+  <link rel="icon" type="image/gif" href="./assets/logo.gif" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body data-page="libros">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="nav-brand">
+        <img src="./assets/logo.gif" alt="irr 222" />
+        <span>irr 222</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-i18n="nav.inicio">Inicio</a></li>
+        <li><a href="juegos.html" data-i18n="nav.juegos">Juegos</a></li>
+        <li><a href="libros.html" class="active" data-i18n="nav.libros">Libros</a></li>
+        <li><a href="otros.html" data-i18n="nav.otros">Investigación</a></li>
+        <li><a href="trayectoria.html" data-i18n="nav.trayectoria">Trayectoria</a></li>
+      </ul>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div data-lang-selector></div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema" data-i18n-aria="aria.toggleTheme">🌙</button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Menú" data-i18n-aria="aria.menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="section-label reveal" data-i18n="libros_page.label">Faceta Literaria</span>
+      <h1 class="section-title reveal" data-i18n="libros_page.title">Historias que trascienden la pantalla.</h1>
+      <p class="section-subtitle reveal" data-i18n="libros_page.subtitle">
+        Escribir es otra forma de crear mundos. En este espacio recopilo mis obras literarias, universos de ficción y relatos donde la profundidad de los personajes y la atmósfera son los auténticos protagonistas. Descubre las sinopsis y los enlaces de lectura de cada libro.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-padding books-section">
+    <div class="container">
+      <div class="books-filter" id="books-filter"></div>
+      <div class="books-grid" id="grid-libros"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="index.html" class="nav-brand">
+        <img src="./assets/logo.gif" alt="irr 222" />
+        <span>irr 222</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="juegos.html" data-i18n="nav.juegos">Juegos</a></li>
+        <li><a href="libros.html" data-i18n="nav.libros">Libros</a></li>
+        <li><a href="otros.html" data-i18n="nav.otros">Investigación</a></li>
+        <li><a href="trayectoria.html" data-i18n="nav.trayectoria">Trayectoria</a></li>
+      </ul>
+      <p class="footer-copy" data-i18n="footer.copy">© 2026 irr 222.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+[
+  {
+    "id_proyecto": "aural-asistente-ia",
+    "titulo": {
+      "es": "Aural: IA local para la gestión del tiempo",
+      "en": "Aural: Local AI for Time Management"
+    },
+    "tipo": "tdr",
+    "categoria": {
+      "es": "Trabajo de Investigación · IA · Productividad",
+      "en": "Research Paper · AI · Productivity"
+    },
+    "contexto": {
+      "es": "Trabajo de Recerca · Bachillerato · 2025-2026",
+      "en": "Research Project · High School · 2025-2026"
+    },
+    "estado": {
+      "es": "Completado · 3 versiones (Lite, Standard, Pro)",
+      "en": "Completed · 3 versions (Lite, Standard, Pro)"
+    },
+    "descripcion": {
+      "es": "Asistente de productividad inteligente, privado y de ejecución 100% local. Diseñado para combatir la economía de la atención y las distracciones digitales mediante IA generativa (Llama 3.2 y DeepSeek-R1) y una mascota virtual con gamificación.",
+      "en": "Intelligent, private, 100% local productivity assistant. Designed to fight the attention economy and digital distractions using generative AI (Llama 3.2 and DeepSeek-R1) and a gamified virtual pet."
+    },
+    "imagen": {
+      "src":      "./assets/otros-proyectos/aural/portada.png",
+      "fallback": "https://i.postimg.cc/PLACEHOLDER-aural-portada.png"
+    },
+    "info_publica": {
+      "es": "Aural es un agente autónomo que observa en segundo plano la ventana activa del ordenador, clasifica la actividad del usuario como PRODUCTIVA o DISTRACCIÓN mediante IA local, y aplica medidas correctivas progresivas: avisos visuales a pantalla completa, bloqueo reflexivo de 5 segundos y, en último caso, cierre coercitivo de la aplicación infractora.\n\n¿POR QUÉ AURAL?\n• Privacidad absoluta: todo el procesamiento es 100% local (Ollama), sin enviar datos a la nube.\n• IA real: usa modelos de lenguaje (LLM) para razonar sobre el contexto, no simples temporizadores.\n• Gamificación: una mascota virtual con 20 avatares y estados de ánimo que premia la productividad.\n• Pomodoro integrado con bloqueo obligatorio de descanso.\n• Totalmente modular y de código abierto.\n\nPRUEBA DE CONCEPTO (n=1)\nSe realizó un caso de estudio único con el propio autor durante 3 meses, registrando la actividad en intervalos de 5 segundos vía CSV. Los datos apuntan a una tendencia positiva clara, pero al tratarse de una muestra individual no permiten generalización estadística.\n\nRESULTADOS PRELIMINARES OBSERVADOS\n• Reducción de distracciones: de un rango inicial del 30-41% a valores del 0-5%.\n• Tendencia sostenida a lo largo del periodo de estudio.\n\nLÍNEA DE TRABAJO FUTURO\nEl siguiente paso imprescindible es ampliar la muestra a un grupo diverso de estudiantes y analizar los datos con herramientas estadísticas (t-test / ANOVA) para poder confirmar la eficacia generalizada del sistema.\n\nTRES VERSIONES DISPONIBLES\n• Aural Lite — Sin IA, reglas locales. Consumo casi nulo.\n• Aural Standard — Llama 3.2 (1B) vía Ollama. ~1.5-2 GB RAM.\n• Aural Pro — DeepSeek-R1 8B (Q4_K_M). Mayor precisión.",
+      "en": "Aural is an autonomous agent that observes the active window in the background, classifies user activity as PRODUCTIVE or DISTRACTION using local AI, and applies progressive corrective measures: full-screen visual warnings, 5-second reflective lock, and as a last resort, forced closure of the offending application.\n\nWHY AURAL?\n• Absolute privacy: all processing is 100% local (Ollama), no data sent to the cloud.\n• Real AI: uses Large Language Models (LLM) to reason about context, not simple timers.\n• Gamification: a virtual pet with 20 avatars and mood states that rewards productivity.\n• Built-in Pomodoro with mandatory rest locking.\n• Fully modular and open source.\n\nPROOF OF CONCEPT (n=1)\nA single case study was conducted with the author himself over 3 months, logging activity in 5-second intervals via CSV. The data show a clear positive trend, but since this is an individual sample it does not allow for statistical generalization.\n\nPRELIMINARY OBSERVED RESULTS\n• Distraction reduction: from an initial 30-41% range to values of 0-5%.\n• Trend sustained throughout the study period.\n\nFUTURE WORK\nEssential next step: expand the sample to a diverse group of students and analyze data with statistical tools (t-test / ANOVA) to confirm the generalized effectiveness of the system.\n\nTHREE AVAILABLE VERSIONS\n• Aural Lite — No AI, local rules. Near-zero consumption.\n• Aural Standard — Llama 3.2 (1B) via Ollama. ~1.5-2 GB RAM.\n• Aural Pro — DeepSeek-R1 8B (Q4_K_M). Highest precision."
+    },
+    "info_tecnica": {
+      "es": "🧠 ARQUITECTURA MODULAR (6 MÓDULOS PYTHON)\n• ulls.py — Monitorización no invasiva de la ventana activa (pygetwindow) y detección de inactividad (pynput, umbral 120s). Registro en CSV cada 5s.\n• mans.py — Control de UI (CustomTkinter) y del sistema operativo: avisos, cierre forzoso (psutil/psgetwindow), gestión de sesiones JSON y compilación con sys._MEIPASS.\n• estadistiques.py — Panel visual con Tkinter + Matplotlib (FigureCanvasTkAgg) y Pandas. Vistas diaria, semanal y mensual.\n• fantasma.py — Mascota virtual (20 avatares, 3 estados de ánimo), Pomodoro y bloqueo obligatorio de descanso. Multihilo con Tkinter.after().\n• intel_ligencia.py — Núcleo analítico. Cliente de Ollama para LLM local. Sistema de memoria persistente (memoria_aural.json) que aprende de las correcciones del usuario.\n• main.py — Cerebro y orquestador. Bucle principal con modos Reconeixement (aprendizaje) y Guardià (vigilancia activa). Sistema de disciplina escalado.\n\n💻 STACK TÉCNICO\n• Python 3.10+ · CustomTkinter · Tkinter · pygetwindow · pynput · psutil\n• Pandas · NumPy · Matplotlib · PyInstaller (compilación .exe)\n• Ollama + Llama 3.2 (1B) para Standard · DeepSeek-R1 8B (Q4_K_M) para Pro\n\n🎨 DISEÑO\n• Patrón Singleton para ventana raíz oculta (Tkinter)\n• Serialización JSON para persistencia (session_state.json, estat_felicitat.json, memoria_aural.json)\n• Event listeners pasivos con pynput (sin polling activo)\n• Instalador unificado con elección de versión (Lite / Standard / Pro)\n• Sistema de autoaprendizaje: las distracciones confirmadas se añaden automáticamente a la blacklist del perfil\n\n⚡ OPTIMIZACIÓN\n• Target: 5s de intervalo de muestreo para minimizar impacto CPU\n• Gestión multi-proceso: fantasma.py se lanza como subprocess independiente\n• Persistencia en %APPDATA%\\Aural para evitar problemas de permisos en Windows\n• Compilación a .exe con PyInstaller (sys._MEIPASS)\n\n📊 RESULTADOS PRELIMINARES (caso de estudio único, n=1)\n• Periodo: 3 meses de uso continuado por parte del propio autor\n• 1er mes: ~59% productivo / ~41% distracciones\n• 2º mes: ~92% productivo / ~8% distracciones\n• 3er mes: ~98% productivo / ~2% distracciones\n\n⚠️ LIMITACIONES DEL ESTUDIO\n• Muestra única (n=1): no permite generalización estadística\n• Efecto Hawthorne posible (el usuario sabe que está siendo medido)\n• Sin grupo de control\n• Sesgo de auto-experimentación del autor-investigador\n• Periodo limitado a 3 meses\n\n🎯 TRABAJO FUTURO\n• Ampliar la muestra a un grupo diverso de estudiantes (>30 usuarios)\n• Análisis estadístico formal (t-test, ANOVA) para validar significancia\n• Grupo de control vs grupo experimental\n• Expansión a macOS y Linux (actualmente dependiente de pygetwindow)\n• Añadir visión por computador (webcam) para robustez del foco",
+      "en": "🧠 MODULAR ARCHITECTURE (6 PYTHON MODULES)\n• ulls.py — Non-invasive active window monitoring (pygetwindow) and inactivity detection (pynput, 120s threshold). CSV logging every 5s.\n• mans.py — UI (CustomTkinter) and OS control: warnings, forced close (psutil/psgetwindow), JSON session management, PyInstaller compilation with sys._MEIPASS.\n• estadistiques.py — Visual dashboard with Tkinter + Matplotlib (FigureCanvasTkAgg) and Pandas. Daily, weekly and monthly views.\n• fantasma.py — Virtual pet (20 avatars, 3 mood states), Pomodoro and mandatory rest lock. Multithreading with Tkinter.after().\n• intel_ligencia.py — Analytical core. Ollama client for local LLM. Persistent memory system (memoria_aural.json) that learns from user corrections.\n• main.py — Brain and orchestrator. Main loop with Reconnaissance (learning) and Guardian (active vigilance) modes. Escalating discipline system.\n\n💻 TECH STACK\n• Python 3.10+ · CustomTkinter · Tkinter · pygetwindow · pynput · psutil\n• Pandas · NumPy · Matplotlib · PyInstaller (.exe build)\n• Ollama + Llama 3.2 (1B) for Standard · DeepSeek-R1 8B (Q4_K_M) for Pro\n\n🎨 DESIGN\n• Singleton pattern for hidden root window (Tkinter)\n• JSON serialization for persistence (session_state.json, estat_felicitat.json, memoria_aural.json)\n• Passive event listeners with pynput (no active polling)\n• Unified installer with version choice (Lite / Standard / Pro)\n• Self-learning system: confirmed distractions are automatically added to the profile blacklist\n\n⚡ OPTIMIZATION\n• Target: 5s sampling interval to minimize CPU impact\n• Multi-process management: fantasma.py runs as an independent subprocess\n• Persistence in %APPDATA%\\Aural to avoid Windows permission issues\n• .exe compilation with PyInstaller (sys._MEIPASS)\n\n📊 PRELIMINARY RESULTS (single case study, n=1)\n• Period: 3 months of continuous use by the author himself\n• 1st month: ~59% productive / ~41% distractions\n• 2nd month: ~92% productive / ~8% distractions\n• 3rd month: ~98% productive / ~2% distractions\n\n⚠️ STUDY LIMITATIONS\n• Single sample (n=1): no statistical generalization\n• Possible Hawthorne effect (user knows they are being measured)\n• No control group\n• Author-researcher self-experimentation bias\n• Limited to a 3-month period\n\n🎯 FUTURE WORK\n• Expand sample to a diverse group of students (>30 users)\n• Formal statistical analysis (t-test, ANOVA) to validate significance\n• Control group vs experimental group\n• Expansion to macOS and Linux (currently pygetwindow-dependent)\n• Add computer vision (webcam) for focus robustness"
+    },
+    "tecnologias": [
+      "Python",
+      "Ollama",
+      "Llama 3.2",
+      "DeepSeek-R1",
+      "CustomTkinter",
+      "Pandas",
+      "Matplotlib",
+      "PyInstaller",
+      "IA local",
+      "Open Source"
+    ],
+    "enlaces": [
+      {
+        "tipo": "web",
+        "label": { "es": "Web oficial de Aural", "en": "Aural Official Website" },
+        "url": "https://iaaural.netlify.app/"
+      },
+      {
+        "tipo": "repo",
+        "label": { "es": "Código fuente en GitHub", "en": "Source Code on GitHub" },
+        "url": "https://github.com/irr-ai/Aural/tree/main"
+      }
+    ],
+    "imagenes_galeria": [
+      { "src": "./assets/otros-proyectos/aural/01.png", "fallback": "https://i.postimg.cc/PLACEHOLDER-aural-1.png" },
+      { "src": "./assets/otros-proyectos/aural/02.png", "fallback": "https://i.postimg.cc/PLACEHOLDER-aural-2.png" },
+      { "src": "./assets/otros-proyectos/aural/03.png", "fallback": "https://i.postimg.cc/PLACEHOLDER-aural-3.png" }
+    ],
+    "textos_galeria": [
+      { "es": "Pantalla principal con selector de mascota, Pomodoro y perfiles", "en": "Main screen with pet selector, Pomodoro and profiles" },
+      { "es": "Alerta de distracción a pantalla completa", "en": "Full-screen distraction alert" },
+      { "es": "Bloqueo obligatorio de descanso con temporizador", "en": "Mandatory rest lock with timer" }
+    ],
+    "anio": "2026",
+    "destacado": true,
+    "meta_tecnica": { "creatividad": 10, "complejidad": 10, "innovacion": 10, "impacto": 9 }
+  },
+  {
+    "id_proyecto": "dreamless-launcher",
+    "titulo": {
+      "es": "Dreamless: Launcher de Minecraft en Python",
+      "en": "Dreamless: Minecraft Launcher in Python"
+    },
+    "tipo": "herramienta",
+    "categoria": {
+      "es": "Herramienta de Software · Colaboración",
+      "en": "Software Tool · Collaboration"
+    },
+    "contexto": {
+      "es": "Proyecto colaborativo con Aarón Wayas y OscarMes · 2024",
+      "en": "Collaborative project with Aarón Wayas and OscarMes · 2024"
+    },
+    "estado": {
+      "es": "Completado · Publicado en GameJolt · Open Source",
+      "en": "Completed · Published on GameJolt · Open Source"
+    },
+    "descripcion": {
+      "es": "Launcher ligero de Minecraft escrito en Python. Nació como evolución de un launcher anterior con éxito moderado, y se convirtió en mi primer proyecto colaborativo real: backend en Python, frontend visual y despliegue público en GameJolt.",
+      "en": "Lightweight Minecraft launcher written in Python. It was born as an evolution of a previous moderately successful launcher, and became my first real collaborative project: Python backend, visual frontend and public release on GameJolt."
+    },
+    "imagen": {
+      "src":      "./assets/otros-proyectos/dreamless-launcher/portada.png",
+      "fallback": "https://i.postimg.cc/PLACEHOLDER-dreamless.png"
+    },
+    "info_publica": {
+      "es": "Dreamless no empezó como una idea aislada: nació de una conversación.\n\nEL ORIGEN\nAntes de Dreamless había creado un launcher anterior en Python con un éxito moderado: dos vídeos en mi canal acumularon unas 20.000 visitas en tres años. En los comentarios de uno de ellos, Aarón Wayas me propuso hacer uno mejor. De esa propuesta nació Dreamless.\n\nQUÉ FUE DREAMLESS\nUna alternativa open-source a los launchers oficiales de Minecraft, orientada a jugadores técnicos que quieren control granular sobre sus instalaciones. Gestión multi-perfil, descarga paralela de assets, verificación SHA-1 y soporte de mods y versiones personalizadas.\n\nMI PRIMER PROYECTO COLABORATIVO\nFue la primera vez que trabajé con otras personas en un proyecto serio de software:\n• Yo me encargué principalmente del backend en Python (descargas, gestión de versiones, persistencia y sistema de archivos) y también aporté algunas partes del frontend.\n• Aarón Wayas se encargó de todo el diseño visual y de las partes más técnicas del frontend.\n• Más adelante se unió OscarMes, que contribuyó con código y realizó su primer commit en el repositorio del proyecto.\n\nUN AGRADECIMIENTO PERSONAL\nSi alguno de los dos lee esto algún día: me gustó mucho trabajar con vosotros. Fue la primera vez que alguien me ayudaba de verdad con un proyecto, y les agradezco enormemente que echaran una mano a un chaval que estaba empezando. Dreamless no habría sido lo mismo sin vosotros.\n\nPUBLICACIÓN\nEl launcher se publicó en GameJolt como mi primer proyecto en una plataforma pública de distribución.",
+      "en": "Dreamless didn't start as an isolated idea: it was born out of a conversation.\n\nTHE ORIGIN\nBefore Dreamless I had built a previous launcher in Python with moderate success: two videos on my channel gathered around 20,000 views over three years. In the comments of one of them, Aarón Wayas suggested we build a better one. Dreamless was born from that suggestion.\n\nWHAT DREAMLESS WAS\nAn open-source alternative to the official Minecraft launchers, aimed at technical players who want granular control over their installs. Multi-profile management, parallel asset downloads, SHA-1 verification and support for mods and custom versions.\n\nMY FIRST COLLABORATIVE PROJECT\nIt was the first time I worked with other people on a serious software project:\n• I mainly handled the Python backend (downloads, version management, persistence and file system) and also contributed some parts of the frontend.\n• Aarón Wayas handled all the visual design and the more technical parts of the frontend.\n• Later, OscarMes joined and contributed code, making his first commit in the project's repository.\n\nA PERSONAL THANK YOU\nIf either of them ever reads this: I really enjoyed working with you. It was the first time someone truly helped me on a project, and I'm deeply grateful that you lent a hand to a kid who was just starting out. Dreamless wouldn't have been the same without you.\n\nRELEASE\nThe launcher was published on GameJolt as my first project on a public distribution platform."
+    },
+    "info_tecnica": {
+      "es": "🐍 STACK\n• Python 3.10+\n• requests + aiohttp (descargas asíncronas)\n• Tkinter para GUI\n• PyInstaller para distribución\n\n💻 ARQUITECTURA\n• Patrón Repository para gestión de versiones\n• Sistema de eventos con asyncio\n• Verificación SHA-1 de todos los binarios\n• Cache local con TTL configurable\n\n⚡ OPTIMIZACIÓN\n• Descargas paralelas (10 hilos configurables)\n• Reanudación de descargas interrumpidas\n• Compresión de assets locales\n• Target: < 30s de instalación inicial\n\n👥 REPARTO DE TAREAS\n• irr 222 (yo): Backend Python, gestión de versiones, sistema de archivos, persistencia, descargas asíncronas y algunas partes del frontend.\n• Aarón Wayas: Diseño visual completo y las partes más técnicas del frontend.\n• OscarMes: Contribución de código adicional y su primer commit en el repositorio.\n\n🔧 PROCESO COLABORATIVO\n• Control de versiones con Git + GitHub\n• Code review entre los tres colaboradores\n• CI básico con GitHub Actions\n• Publicación final en GameJolt como primer proyecto público del autor",
+      "en": "🐍 STACK\n• Python 3.10+\n• requests + aiohttp (async downloads)\n• Tkinter for GUI\n• PyInstaller for distribution\n\n💻 ARCHITECTURE\n• Repository pattern for version management\n• Event system with asyncio\n• SHA-1 verification of all binaries\n• Local cache with configurable TTL\n\n⚡ OPTIMIZATION\n• Parallel downloads (10 configurable threads)\n• Resume of interrupted downloads\n• Local asset compression\n• Target: < 30s initial install\n\n👥 TASK DISTRIBUTION\n• irr 222 (me): Python backend, version management, file system, persistence, async downloads and some parts of the frontend.\n• Aarón Wayas: Full visual design and the more technical parts of the frontend.\n• OscarMes: Additional code contribution and his first commit in the repository.\n\n🔧 COLLABORATIVE PROCESS\n• Git + GitHub version control\n• Code review among the three collaborators\n• Basic CI with GitHub Actions\n• Final release on GameJolt as the author's first public project"
+    },
+    "tecnologias": ["Python", "asyncio", "Tkinter", "Git", "GitHub Actions", "Open Source"],
+    "enlaces": [
+      {
+        "tipo": "gamejolt",
+        "label": { "es": "Ver en GameJolt", "en": "View on GameJolt" },
+        "url": "https://gamejolt.com/games/Launcher_mc_dreamless/883261"
+      },
+      {
+        "tipo": "repo",
+        "label": { "es": "Repositorio GitHub", "en": "GitHub Repository" },
+        "url": "https://github.com/irr222/dreamless"
+      },
+      {
+        "tipo": "user",
+        "label": { "es": "Aarón Wayas (colaborador)", "en": "Aarón Wayas (collaborator)" },
+        "url": "https://github.com/aaronwayas"
+      },
+      {
+        "tipo": "user",
+        "label": { "es": "OscarMesa (colaborador)", "en": "OscarMesa (collaborator)" },
+        "url": "https://github.com/OscarMesa"
+      }
+    ],
+    "imagenes_galeria": [
+      { "src": "./assets/otros-proyectos/dreamless-launcher/portada.png", "fallback": "https://i.postimg.cc/PLACEHOLDER-dreamless.png" }
+    ],
+    "textos_galeria": [
+      { "es": "Interfaz principal del launcher", "en": "Main launcher interface" }
+    ],
+    "anio": "2024",
+    "destacado": false,
+    "meta_tecnica": { "creatividad": 7, "complejidad": 8, "innovacion": 6, "impacto": 6 }
+  }
+]

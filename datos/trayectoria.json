@@ -1,0 +1,285 @@
+[
+  {
+    "etapa": {
+      "es": "2021: Los Primeros Contactos con el Código",
+      "en": "2021: First Contact with Code"
+    },
+    "anio": "2021",
+    "hitos": [
+      {
+        "titulo": {
+          "es": "Mi primer 'Hola Mundo' en Kotlin",
+          "en": "My first 'Hello World' in Kotlin"
+        },
+        "descripcion": {
+          "es": "A los 12 años escribí mi primera línea de código. Un simple 'Hola Mundo' en Kotlin que despertó algo en mí: la sensación de que podía crear cosas con un teclado.",
+          "en": "At age 12 I wrote my first line of code. A simple 'Hello World' in Kotlin that sparked something in me: the feeling that I could create things with a keyboard."
+        },
+        "fecha": "2021-03-15",
+        "tipo": "personal",
+        "importancia": "minor",
+        "edad": 12
+      }
+    ]
+  },
+  {
+    "etapa": {
+      "es": "2023: Los Inicios y Primeros Pasos",
+      "en": "2023: The Beginnings"
+    },
+    "anio": "2023",
+    "hitos": [
+      {
+        "titulo": {
+          "es": "Mi primer 'Hola Mundo' en Python",
+          "en": "My first 'Hello World' in Python"
+        },
+        "descripcion": {
+          "es": "A los 14 años descubrí Python. Fue el lenguaje que me abrió las puertas a proyectos reales: mi primer juego completo (Spaces Galaxy) y el inicio de todo lo que vendría después.",
+          "en": "At age 14 I discovered Python. It was the language that opened the door to real projects: my first complete game (Spaces Galaxy) and the start of everything that followed."
+        },
+        "fecha": "2023-05-20",
+        "tipo": "personal",
+        "importancia": "minor",
+        "edad": 14
+      },
+      {
+        "titulo": {
+          "es": "Nacimiento del canal irr 222",
+          "en": "Birth of the irr 222 channel"
+        },
+        "descripcion": {
+          "es": "Comienzo subiendo tutoriales (como la creación de un launcher de Minecraft) para compartir lo que iba aprendiendo.",
+          "en": "I start uploading tutorials (like building a Minecraft launcher) to share what I was learning."
+        },
+        "fecha": "2023-11-01",
+        "tipo": "juego",
+        "importancia": "minor"
+      },
+      {
+        "titulo": {
+          "es": "Spaces Galaxy",
+          "en": "Spaces Galaxy"
+        },
+        "descripcion": {
+          "es": "Primeros proyectos en solitario y con amigos. Creación de Spaces Galaxy, mi primer juego completo hecho desde cero en Python (estilo arcade clásico, con assets propios).",
+          "en": "First solo and friend-collab projects. Spaces Galaxy, my first complete game built from scratch in Python (classic arcade style, with custom assets)."
+        },
+        "fecha": "2023-12-01",
+        "tipo": "juego",
+        "importancia": "major"
+      }
+    ]
+  },
+  {
+    "etapa": {
+      "es": "2024: Experimentación y Colaboraciones",
+      "en": "2024: Experimentation & Collaborations"
+    },
+    "anio": "2024",
+    "hitos": [
+      {
+        "titulo": {
+          "es": "Mi primer 'Hola Mundo' en C#",
+          "en": "My first 'Hello World' in C#"
+        },
+        "descripcion": {
+          "es": "A los 15 años di el salto a C#, el lenguaje que me acompañaría en Unity durante todos los proyectos móviles posteriores. El primer paso hacia el desarrollo profesional de videojuegos.",
+          "en": "At age 15 I made the leap to C#, the language that would accompany me in Unity throughout all subsequent mobile projects. The first step towards professional game development."
+        },
+        "fecha": "2024-02-10",
+        "tipo": "personal",
+        "importancia": "minor",
+        "edad": 15
+      },
+      {
+        "titulo": {
+          "es": "Dreamless: mi primer proyecto colaborativo",
+          "en": "Dreamless: my first collaborative project"
+        },
+        "descripcion": {
+          "es": "Nacido de una propuesta de Aarón Wayas en los comentarios de mi launcher anterior (20k visitas en 3 años). Yo hice el backend en Python, Aarón todo el frontend visual y OscarMes se unió después con contribuciones al código. Publicado en GameJolt.",
+          "en": "Born from a suggestion by Aarón Wayas in the comments of my previous launcher (20k views in 3 years). I built the Python backend, Aarón handled all visual frontend and OscarMes later joined with code contributions. Published on GameJolt."
+        },
+        "fecha": "2024-03-15",
+        "tipo": "otros",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "El pez que tenía piernas pero no tenía huevos",
+          "en": "The Fish with Legs but no Eggs"
+        },
+        "descripcion": {
+          "es": "Participo en mi primera Game Jam de 7 días documentando todo el proceso diario.",
+          "en": "I join my first 7-day Game Jam, documenting the whole daily process."
+        },
+        "fecha": "2024-04-08",
+        "tipo": "juego",
+        "importancia": "minor"
+      },
+      {
+        "titulo": {
+          "es": "Las aventuras del slime verde",
+          "en": "The Adventures of the Green Slime"
+        },
+        "descripcion": {
+          "es": "Lanzamiento de este título estilo Geometry Dash creado junto a un amigo.",
+          "en": "Release of this Geometry Dash-style title co-created with a friend."
+        },
+        "fecha": "2024-04-29",
+        "tipo": "juego",
+        "importancia": "minor"
+      },
+      {
+        "titulo": {
+          "es": "Elemental Pets",
+          "en": "Elemental Pets"
+        },
+        "descripcion": {
+          "es": "Salto definitivo a Unity y a los dispositivos móviles con otro proyecto.",
+          "en": "Definitive jump to Unity and mobile devices with another project."
+        },
+        "fecha": "2024-06-27",
+        "tipo": "juego",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "Goblin Forest Slayer",
+          "en": "Goblin Forest Slayer"
+        },
+        "descripcion": {
+          "es": "Mi primer juego vertical para móviles con historia, habilidades y mi debut en Google Play Store.",
+          "en": "My first vertical mobile game with story, abilities and my Google Play Store debut."
+        },
+        "fecha": "2024-10-28",
+        "tipo": "juego",
+        "importancia": "major"
+      }
+    ]
+  },
+  {
+    "etapa": {
+      "es": "2025: El Salto Profesional",
+      "en": "2025: The Professional Leap"
+    },
+    "anio": "2025",
+    "hitos": [
+      {
+        "titulo": {
+          "es": "Medieval Empire",
+          "en": "Medieval Empire"
+        },
+        "descripcion": {
+          "es": "Tras tres meses de desarrollo intenso, sale a la luz este título de estrategia. El bache: me sobrecargué y tuve que parar temporalmente para recargar energías.",
+          "en": "After three intense months of development, this strategy title launches. The dip: I overloaded myself and had to pause temporarily to recharge."
+        },
+        "fecha": "2025-03-31",
+        "tipo": "juego",
+        "importancia": "major"
+      }
+    ]
+  },
+  {
+    "etapa": {
+      "es": "2026: Regreso, Libros y Actualidad",
+      "en": "2026: Return, Books & Present"
+    },
+    "anio": "2026",
+    "hitos": [
+      {
+        "titulo": {
+          "es": "Campaña publicitaria de relanzamiento",
+          "en": "Relaunch advertising campaign"
+        },
+        "descripcion": {
+          "es": "Regreso con una campaña publicitaria en YouTube, Instagram y TikTok para relanzar Medieval Empire y Goblin Forest Slayer.",
+          "en": "I return with an ad campaign on YouTube, Instagram and TikTok to relaunch Medieval Empire and Goblin Forest Slayer."
+        },
+        "fecha": "2026-04-15",
+        "tipo": "juego",
+        "importancia": "minor"
+      },
+      {
+        "titulo": {
+          "es": "Medieval Empire: Diario de un estratega (Vol. 1)",
+          "en": "Medieval Empire: Diary of a Strategist (Vol. 1)"
+        },
+        "descripcion": {
+          "es": "Publicación de mi primer libro para expandir el universo del videojuego.",
+          "en": "Publication of my first book to expand the video game's universe."
+        },
+        "fecha": "2026-06-06",
+        "tipo": "libro",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "Primero en la brecha: El Despertar del Nigromante Oculto",
+          "en": "First Into the Breach: The Awakening of the Hidden Necromancer"
+        },
+        "descripcion": {
+          "es": "Lanzamiento de una historia fantástica completamente nueva y abierta a continuaciones.",
+          "en": "Launch of a completely new fantasy story, open to sequels."
+        },
+        "fecha": "2026-06-09",
+        "tipo": "libro",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "Gran Actualización Multijugador",
+          "en": "Major Multiplayer Update"
+        },
+        "descripcion": {
+          "es": "Actualización masiva para Medieval Empire (contra la máquina, clasificaciones mensuales, pase de batalla y progresión).",
+          "en": "Massive update for Medieval Empire (vs AI, monthly rankings, battle pass and progression)."
+        },
+        "fecha": "2026-07-04",
+        "tipo": "juego",
+        "importancia": "minor"
+      },
+      {
+        "titulo": {
+          "es": "La Orden: Misión Cero",
+          "en": "The Order: Mission Zero"
+        },
+        "descripcion": {
+          "es": "Mi proyecto más ambicioso hasta la fecha, lanzado con la visión de pulirlo y completarlo a largo plazo (1-2 años).",
+          "en": "My most ambitious project to date, launched with a long-term polish and completion roadmap (1-2 years)."
+        },
+        "fecha": "2026-07-13",
+        "tipo": "juego",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "Paint The Animal",
+          "en": "Paint The Animal"
+        },
+        "descripcion": {
+          "es": "Mi primer juego en 3D. Desarrollado en tiempo récord (2 semanas), un título divertido con el reto de llegar a las 1,000 descargas.",
+          "en": "My first 3D game. Built in record time (2 weeks), a fun title with the goal of reaching 1,000 downloads."
+        },
+        "fecha": "2026-09-09",
+        "tipo": "juego",
+        "importancia": "major"
+      },
+      {
+        "titulo": {
+          "es": "TDR: Aural — IA local para la gestión del tiempo",
+          "en": "Research: Aural — Local AI for Time Management"
+        },
+        "descripcion": {
+          "es": "Desarrollo completo de Aural, un asistente de productividad con IA local. Prueba de concepto validada mediante un caso de estudio único (n=1) durante 3 meses, con resultados preliminares que apuntan a una reducción notable de las distracciones. Tres versiones: Lite, Standard y Pro.",
+          "en": "Full development of Aural, a local-AI productivity assistant. Proof of concept validated through a single case study (n=1) over 3 months, with preliminary results pointing to a notable reduction in distractions. Three versions: Lite, Standard and Pro."
+        },
+        "fecha": "2026-10-12",
+        "tipo": "otros",
+        "importancia": "major",
+        "edad": 17
+      }
+    ]
+  }
+]

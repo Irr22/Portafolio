@@ -1,0 +1,134 @@
+[
+  {
+      "id_proyecto": "com.Irr222.MedievalEmpire",
+      "titulo": { "es": "Medieval Empire", "en": "Medieval Empire" },
+      "descripcion": {
+        "es": "Comanda tu ejército en un campo de batalla estratégico donde cada movimiento cuenta.",
+        "en": "Command your army on a strategic battlefield where every move counts."
+      },
+      "imagen": {
+        "src":      "./assets/juegos/medieval-empire/portada.jpg",
+        "fallback": "https://i.postimg.cc/tRhFyHKS/Anadir-un-titulo-(1).png"
+      },
+      "link_juego": "https://play.google.com/store/apps/details?id=com.Irr22.com.unity.template.mobile2D&hl=es_PY",
+      "link_demo": "https://irr-222.itch.io/medieval-empiere",
+      "info_publica": {
+      "es": "Medieval Empire te sumerge en batallas épicas donde la estrategia es clave. Construye tu ejército, posiciona tus tropas sabiamente y conquista territorios enemigos.\n\nCaracterísticas principales:\n• Modo Historia con múltiples niveles y progresión táctica.\n• Sistema de combate táctico por turnos.\n• Variedad de unidades: arqueros, caballería, infantería y mejoras de tropas.\n• Sistema Multijugador PvE con clasificaciones mensuales y actualización de ligas.\n• Pase de Batalla desbloqueable mediante puntos de combate, misiones y partidas diarias.\n• 5 Ligas competitivas donde las restricciones de unidades ponen a prueba tu estrategia.\n• Modos de juego avanzados: Batallas tácticas de 3 dificultades y Modo Infinito.\n• Banda sonora atmosférica e inmersiva adaptada al combate.\n\nCada decisión cuenta en el campo de batalla. ¿Serás capaz de liderar tu imperio hacia la victoria?",
+      "en": "Medieval Empire drops you into epic battles where strategy is everything. Build your army, position your troops wisely, and conquer enemy territories.\n\nKey features:\n• Story mode with multiple levels and tactical progression.\n• Turn-based tactical combat.\n• Unit variety: archers, cavalry, infantry, and troop upgrades.\n• PvE Multiplayer system with monthly leaderboards and league resets.\n• Battle Pass unlockable through combat points, quests, and daily matches.\n• 5 Competitive leagues with strict unit restrictions to test your strategy.\n• Advanced game modes: 3-difficulty tactical battles and Endless Mode.\n• Atmospheric and immersive combat soundtrack.\n\nEvery decision counts on the battlefield. Can you lead your empire to victory?"
+      },
+      "info_tecnica": {
+      "es": "Desarrollo técnico y arquitectura de sistemas:\n\n🎮 MOTOR Y HERRAMIENTAS\n• Unity 2022.3\n• Sistema de cuadrícula posicional personalizado\n• Pathfinding A* optimizado para rendimiento móvil\n\n💻 ARQUITECTURA Y LÓGICA\n• Patrón MVC para separación de datos, lógica y UI\n• Sistema de eventos centralizado y gestión de economías de juego\n\n🏆 SISTEMAS MULTIJUGADOR / PVE\n• Gestión de 5 ligas competitivas y reinicios mensuales\n• Restricciones dinámicas de unidades y modos avanzados (Infinito / 3 dificultades)\n\n⚡ OPTIMIZACIÓN Y RENDIMIENTO\n• Object pooling avanzado y compresión de texturas ASTC (Target: 60 FPS)\n\n🧩 RECURSOS Y ASSETS EXTERNOS (CRÉDITOS)\n• Armas y elementos de fantasía: <a href=\"https://babysamurai.itch.io/super-epic-fantasy-weapons-pack\" target=\"_blank\" rel=\"noopener\">Super Epic Fantasy Weapons Pack by BabySamurai</a>\n• Tilesets y entorno Top-Down: <a href=\"https://cainos.itch.io/pixel-art-top-down-basic\" target=\"_blank\" rel=\"noopener\">Pixel Art Top Down Basic by Cainos</a>\n• Interfaz de usuario (GUI): <a href=\"https://paperhatlizard.itch.io/cryos-mini-gui\" target=\"_blank\" rel=\"noopener\">Cryos Mini GUI by PaperHatLizard</a>\n• Otros recursos gráficos, tipografías o efectos de apoyo de fuentes abiertas y creadores independientes en Itch.io / Unity Asset Store.",
+      
+      "en": "Technical development and systems architecture:\n\n🎮 ENGINE & TOOLS\n• Unity 2022.3\n• Custom positional grid system\n• A* Pathfinding optimized for mobile performance\n\n💻 ARCHITECTURE & LOGIC\n• MVC pattern for clean separation of data, logic, and UI\n• Centralized event system and game economy management\n\n🏆 MULTIPLAYER / PVE SYSTEMS\n• Management of 5 competitive leagues and monthly resets\n• Dynamic unit restrictions and advanced modes (Endless / 3 difficulties)\n\n⚡ OPTIMIZATION & PERFORMANCE\n• Advanced object pooling and ASTC texture compression (Target: 60 FPS)\n\n🧩 EXTERNAL ASSETS & RESOURCES (CREDITS)\n• Fantasy weapons & items: <a href=\"https://babysamurai.itch.io/super-epic-fantasy-weapons-pack\" target=\"_blank\" rel=\"noopener\">Super Epic Fantasy Weapons Pack by BabySamurai</a>\n• Top-down tilesets & environment: <a href=\"https://cainos.itch.io/pixel-art-top-down-basic\" target=\"_blank\" rel=\"noopener\">Pixel Art Top Down Basic by Cainos</a>\n• User Interface (GUI): <a href=\"https://paperhatlizard.itch.io/cryos-mini-gui\" target=\"_blank\" rel=\"noopener\">Cryos Mini GUI by PaperHatLizard</a>\n• Additional graphic resources, fonts, or support SFX from open-source creators and independent artists on Itch.io / Unity Asset Store."
+      },
+      "imagenes_galeria": [
+        { "src": "./assets/juegos/medieval-empire/01.jpg" },
+        { "src": "./assets/juegos/medieval-empire/02.jpg" },
+        { "src": "./assets/juegos/medieval-empire/03.jpg" },
+        { "src": "./assets/juegos/medieval-empire/04.jpg" },
+        { "src": "./assets/juegos/medieval-empire/05.jpg" },
+        { "src": "./assets/juegos/medieval-empire/06.jpg" }
+      ],
+      "categorias": ["unity", "estrategia", "web", "mobile"],
+      "destacado": true,
+      "meta_tecnica": { "creatividad": 8, "complejidad": 8, "innovacion": 7, "impacto": 7 }
+    },
+    {
+      "id_proyecto": "GoblinForestSlayer",
+      "titulo": { "es": "Goblin Forest Slayer", "en": "Goblin Forest Slayer" },
+      "descripcion": {
+        "es": "Un juego de acción y estrategia donde el objetivo es defender el reino y cazar hordas de goblins en el bosque.",
+        "en": "An action-strategy game where you defend the kingdom and hunt down goblin hordes in the forest."
+      },
+      "imagen": {
+        "src":      "./assets/juegos/goblin-forest-slayer/portada.png",
+        "fallback": "https://i.postimg.cc/d1Mpkyqc/Diseno-sin-titulo-(2).png"
+      },
+      "link_juego": "https://play.google.com/store/apps/details?id=com.Irr22.Goblinforestslayer&hl=es",
+      "link_demo": "",
+      "info_publica": {
+        "es": "Adéntrate en un oscuro bosque plagado de criaturas hostiles. Como el último defensor del reino, tu misión es eliminar las hordas de goblins que amenazan la paz.\n\nCaracterísticas:\n• Combate dinámico y frenético\n• Sistema de oleadas progresivas\n• Power-ups y habilidades especiales\n• Múltiples tipos de enemigos",
+        "en": "Step into a dark forest crawling with hostile creatures. As the kingdom's last defender, your mission is to wipe out the goblin hordes threatening the peace.\n\nFeatures:\n• Dynamic, frantic combat\n• Progressive wave system\n• Power-ups and special abilities\n• Multiple enemy types"
+      },
+      "info_tecnica": {
+        "es": "Proceso de desarrollo:\n\n🎮 TECNOLOGÍA BASE\n• Unity 2022.3\n• Sistema de spawning procedural\n• Pool de objetos para enemigos\n\n💻 SISTEMAS IMPLEMENTADOS\n• Wave spawner con dificultad escalable\n• Sistema de combate con hitboxes precisos\n\n🎨 DISEÑO VISUAL\n• Estilo pixel art\n• Sistema de parallax para profundidad\n\n⚡ OPTIMIZACIÓN MÓVIL\n• Instanciación bajo demanda\n• Destrucción automática fuera de cámara\n• Target: 30+ FPS constantes\n\n🧩 RECURSOS Y ASSETS EXTERNOS (CRÉDITOS)\n• Interfaz de usuario (GUI): <a href=\"https://etahoshi.itch.io/minimal-fantasy-gui-by-eta\" target=\"_blank\" rel=\"noopener\">Minimal Fantasy GUI by EtaHoshi</a>\n• Otros recursos gráficos, tipografías o efectos de apoyo de fuentes abiertas y creadores independientes en Itch.io / Unity Asset Store.",
+        "en": "Development process:\n\n🎮 BASE TECH\n• Unity 2022.3\n• Procedural spawning system\n• Enemy object pool\n\n💻 IMPLEMENTED SYSTEMS\n• Wave spawner with scalable difficulty\n• Combat system with precise hitboxes\n\n🎨 VISUAL DESIGN\n• Pixel art style\n• Parallax system for depth\n\n⚡ MOBILE OPTIMIZATION\n• On-demand instantiation\n• Auto-destroy offscreen\n• Target: 30+ stable FPS\n\n🧩 EXTERNAL ASSETS & RESOURCES (CREDITS)\n• User Interface (GUI): <a href=\"https://etahoshi.itch.io/minimal-fantasy-gui-by-eta\" target=\"_blank\" rel=\"noopener\">Minimal Fantasy GUI by EtaHoshi</a>\n• Additional graphic resources, fonts, or support SFX from open-source creators and independent artists on Itch.io / Unity Asset Store."
+      },
+      "imagenes_galeria": [
+        { "src": "./assets/juegos/goblin-forest-slayer/01.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/02.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/03.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/04.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/05.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/06.png" },
+        { "src": "./assets/juegos/goblin-forest-slayer/07.png" }
+      ],
+      "categorias": ["unity", "accion", "mobile"],
+      "destacado": false,
+      "meta_tecnica": { "creatividad": 6, "complejidad": 6, "innovacion": 5, "impacto": 6 }
+    },
+    {
+      "id_proyecto": "PaintTheAnimal",
+      "titulo": { "es": "Paint The Animal", "en": "Paint The Animal" },
+      "descripcion": {
+        "es": "¡Pinta, esquiva y sobrevive! Corre, dispara pintura y devuelve el color a los animales en este arcade frenético.",
+        "en": "Paint, dodge and survive! Run, shoot paint and bring color back to the animals in this frantic arcade."
+      },
+      "imagen": {
+        "src":      "./assets/juegos/paint-the-animal/portada.png",
+        "fallback": "https://i.postimg.cc/tZsbVs0F/large/paint-the-animal.png"
+      },
+      "link_juego": "",
+      "link_demo": "https://irr-222.itch.io/paint-the-animal",
+      "info_publica": {
+        "es": "¡El mundo ha perdido su color y los animales andan sueltos! En Paint The Animal, tu misión es correr a toda velocidad, disparar pintura para devolverles la vida y evitar que te lancen por los aires.\n\nEL RETO DEL PROTOTIPO:\n• Desarrollado en tiempo récord (solo 1 semana) como un prototipo rápido de validación.\n• Meta de comunidad: ¡Si se alcanzan las 1,000 descargas, se lanzará una actualización masiva con más de 20 personajes nuevos, 60 skins, nuevos modos de juego y mucho más!\n\nCARACTERÍSTICAS:\n• Controles fluidos y respuesta instantánea.\n• Física y muertes con ragdoll divertidas.\n• Acción trepidante y récords adictivos.",
+        "en": "The world has lost its color and the animals are on the loose! In Paint The Animal, your mission is to run at full speed, shoot paint to bring them back to life, and avoid getting launched into orbit.\n\nTHE PROTOTYPE CHALLENGE:\n• Developed in record time (just 1 week) as a rapid validation prototype.\n• Community Goal: If it reaches 1,000 downloads, a massive update will drop featuring over 20 new characters, 60 skins, new game modes, and much more!\n\nFEATURES:\n• Fluid controls and instant response.\n• Fun physics and ragdoll deaths.\n• Frantic action and addictive score chasing."
+      },
+      "info_tecnica": {
+        "es": "Desarrollo técnico:\n\n🎮 MOTOR Y HERRAMIENTAS\n• Unity 2022.3\n• Sistema de movimiento por cuadrícula arcade\n• Física 2D para colisiones y ragdoll\n\n💻 SISTEMAS IMPLEMENTADOS\n• Sistema de disparo con proyectiles de pintura\n• Spawner procedural de animales\n• Sistema de puntuación y récords\n\n⚡ OPTIMIZACIÓN\n• Object pooling avanzado\n• Target: 60 FPS constantes\n\n🧩 RECURSOS Y ASSETS EXTERNOS (CRÉDITOS)\n• Audio / Música: <a href=\"https://pizzadoggy.itch.io/cozy-tunes\" target=\"_blank\" rel=\"noopener\">Cozy Tunes by PizzaDoggy</a>\n• Modelos / Voxel 3D: <a href=\"https://sona-sar.itch.io/voxel-animals-items-pack-free-assets\" target=\"_blank\" rel=\"noopener\">Voxel Animals & Items Pack by Sona Sar</a>\n• Efectos / Kits de soporte: <a href=\"https://kenney.nl/assets/blaster-kit\" target=\"_blank\" rel=\"noopener\">Blaster Kit by Kenney</a>\n• Otros recursos gráficos, tipografías o efectos de apoyo de fuentes abiertas y creadores independientes en Itch.io / Unity Asset Store.",
+        "en": "Technical development:\n\n🎮 ENGINE & TOOLS\n• Unity 2022.3\n• Arcade grid movement system\n• 2D physics for collisions and ragdoll\n\n💻 IMPLEMENTED SYSTEMS\n• Paint projectile shooting\n• Procedural animal spawner\n• Scoring and high-score system\n\n⚡ OPTIMIZATION\n• Advanced object pooling\n• Target: constant 60 FPS\n\n🧩 EXTERNAL ASSETS & RESOURCES (CREDITS)\n• Audio / Music: <a href=\"https://pizzadoggy.itch.io/cozy-tunes\" target=\"_blank\" rel=\"noopener\">Cozy Tunes by PizzaDoggy</a>\n• 3D Models / Voxels: <a href=\"https://sona-sar.itch.io/voxel-animals-items-pack-free-assets\" target=\"_blank\" rel=\"noopener\">Voxel Animals & Items Pack by Sona Sar</a>\n• Support kits / FX: <a href=\"https://kenney.nl/assets/blaster-kit\" target=\"_blank\" rel=\"noopener\">Blaster Kit by Kenney</a>\n• Additional graphic resources, fonts, or support SFX from open-source creators and independent artists on Itch.io / Unity Asset Store."
+      },
+      "imagenes_galeria": [
+        { "src": "./assets/juegos/paint-the-animal/01.png" },
+        { "src": "./assets/juegos/paint-the-animal/02.png" },
+        { "src": "./assets/juegos/paint-the-animal/03.png" },
+        { "src": "./assets/juegos/paint-the-animal/04.png" }
+      ],
+      "categorias": ["unity", "accion", "arcade", "mobile", "web"],
+      "destacado": false,
+      "meta_tecnica": { "creatividad": 9, "complejidad": 6, "innovacion": 8, "impacto": 6 }
+    },
+    {
+      "id_proyecto": "LaOrdenMisionCero",
+      "titulo": { "es": "La Orden: Misión Cero", "en": "The Order: Mission Zero" },
+      "descripcion": {
+        "es": "Un misterio medieval te aguarda. Un soldado sin recuerdos. Una verdad por descubrir. RPG de acción 2D vertical.",
+        "en": "A medieval mystery awaits. A soldier with no memories. A truth to uncover. Vertical 2D action RPG."
+      },
+      "imagen": {
+        "src":      "./assets/juegos/la-orden-mision-cero/portada.png",
+        "fallback": "https://i.postimg.cc/2LYHNtxS/la-orden-mision-cero.png"
+      },
+      "link_juego": "https://play.google.com/store/apps/details?id=com.irr22.laordenmisioncero",
+      "link_demo": "",
+      "info_publica": {
+        "es": "Un misterio medieval te aguarda. Un soldado sin recuerdos. Una verdad por descubrir.\n\nApareces en mitad del caos. No sabes quién eres, dónde estás ni por qué todos buscan tu cabeza. Lo único seguro es que debes blandir tu espada y luchar para sobrevivir.\n\nÁbrete paso a través de hordas de enemigos en este RPG de acción 2D vertical diseñado para jugar cómodamente con una sola mano.\n\nESTADO DE DESARROLLO:\n• ¡Actualmente en desarrollo activo! Es mi proyecto más ambicioso y de mayor escala hasta la fecha.\n• Capítulo 1 disponible en Google Play, con 9 capítulos más planificados a largo plazo para expandir toda la narrativa.",
+        "en": "A medieval mystery awaits. A soldier with no memories. A truth to uncover.\n\nYou wake in the middle of chaos. You don't know who you are, where you are, or why everyone is after your head. The only certainty is that you must wield your sword and fight to survive.\n\nCut through enemy hordes in this vertical 2D action RPG designed for comfortable one-handed play.\n\nDEVELOPMENT STATUS:\n• Currently in active development! This is my biggest and most ambitious project to date.\n• Chapter 1 available on Google Play, with 9 more chapters planned long-term to expand the entire narrative."
+      },
+      "info_tecnica": {
+        "es": "Desarrollo técnico y arquitectura:\n\n🎮 MOTOR Y HERRAMIENTAS\n• Unity 2022.3\n• Sistema de combate melee avanzado con gestión de combos\n• Sistema de progresión RPG y estadísticas\n\n💻 ARQUITECTURA NARRATIVA\n• Sistema modular de capítulos con persistencia de guardado\n• Estructura de diálogos ramificados y múltiples finales según decisiones\n\n⚡ OPTIMIZACIÓN\n• Diseño ergonómico one-handed para dispositivos móviles\n• Controles táctiles altamente intuitivos\n• Target: 30+ FPS estables\n\n🧩 RECURSOS Y ASSETS EXTERNOS (CRÉDITOS)\n• Sprites de personajes: <a href=\"https://zerie.itch.io/tiny-rpg-character-asset-pack\" target=\"_blank\" rel=\"noopener\">Tiny RPG Character Asset Pack by Zerie</a>\n• Tilesets de entorno / Bosque: <a href=\"https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16\" target=\"_blank\" rel=\"noopener\">Pixelart Forest Pack by Anokolisa</a>\n• Sprites de animales / criaturas: <a href=\"https://lyaseek.itch.io/miniffanimals\" target=\"_blank\" rel=\"noopener\">Mini FF Animals by Lyaseek</a>\n• Otros recursos gráficos, tipografías o efectos de apoyo de fuentes abiertas y creadores independientes en Itch.io / Unity Asset Store.",
+        "en": "Technical development and architecture:\n\n🎮 ENGINE & TOOLS\n• Unity 2022.3\n• Advanced melee combat system with combo management\n• RPG progression and stats system\n\n💻 NARRATIVE ARCHITECTURE\n• Modular chapter system with save persistence\n• Branching dialogue structure and multiple endings based on choices\n\n⚡ OPTIMIZATION\n• Ergonomic one-handed design for mobile devices\n• Highly intuitive touch controls\n• Target: 30+ stable FPS\n\n🧩 EXTERNAL ASSETS & RESOURCES (CREDITS)\n• Character sprites: <a href=\"https://zerie.itch.io/tiny-rpg-character-asset-pack\" target=\"_blank\" rel=\"noopener\">Tiny RPG Character Asset Pack by Zerie</a>\n• Environment tilesets / Forest: <a href=\"https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16\" target=\"_blank\" rel=\"noopener\">Pixelart Forest Pack by Anokolisa</a>\n• Animal / creature sprites: <a href=\"https://lyaseek.itch.io/miniffanimals\" target=\"_blank\" rel=\"noopener\">Mini FF Animals by Lyaseek</a>\n• Additional graphic resources, fonts, or support SFX from open-source creators and independent artists on Itch.io / Unity Asset Store."
+      },
+      "imagenes_galeria": [
+        { "src": "./assets/juegos/la-orden-mision-cero/01.png" },
+        { "src": "./assets/juegos/la-orden-mision-cero/02.png" },
+        { "src": "./assets/juegos/la-orden-mision-cero/03.png" },
+        { "src": "./assets/juegos/la-orden-mision-cero/04.png" },
+        { "src": "./assets/juegos/la-orden-mision-cero/05.png" },
+        { "src": "./assets/juegos/la-orden-mision-cero/06.png" }
+      ],
+      "categorias": ["unity", "rpg", "accion", "mobile", "narrativa"],
+      "destacado": false,
+      "meta_tecnica": { "creatividad": 9, "complejidad": 9, "innovacion": 8, "impacto": 7 }
+    }
+]
